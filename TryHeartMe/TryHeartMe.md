@@ -22,17 +22,20 @@ When I visit the website there is an option to login and register..when I create
 
 When I decode the jwt cookie on online website (jwt.io) there is an field named as role and another field named as credit ( it is used to buy gifts from the website)
 
-![[Pasted image 20260714060338.png]]
+<img width="1399" height="519" alt="image" src="https://github.com/user-attachments/assets/caa26f6d-3ead-4f41-8c20-a3c8c10ea7c4" />
+
 
 I changed the role from user to admin and changed the credit score from 0 to 5,000
 
 After changing this things I go to dev tool and replaced the cookie with the other jwt cookie which I crafted..
 
-![[Pasted image 20260714060626.png]]
+<img width="1918" height="888" alt="image" src="https://github.com/user-attachments/assets/65cf1762-fb2c-428b-8a74-c9803be1bc7b" />
+
 
 And now I am able to see the hidden gift and when I click on it, BOOM !! Flag appears on my screen
 
-![[Pasted image 20260714060756.png]]
+<img width="1918" height="551" alt="image" src="https://github.com/user-attachments/assets/ec317179-3602-439a-a0be-4a81f6b86a98" />
+
 
 
 **FLAG:** **THM{v4l3nt1n3_jwt_c00k13_t4mp3r_4dm1n_sh0p}**
